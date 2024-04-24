@@ -6,6 +6,7 @@ import MessangerPage from './Pages/messanger/MessangerPage';
 function App() {
   return (
     <div className="App">
+      <MessangerPage/>
     </div>
   );
 }
