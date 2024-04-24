@@ -1,0 +1,79 @@
+.search-wrap {
+  .Mui-focused {
+    outline: none;
+    border: none;
+  }
+
+  width: 300px;
+
+  &>div {
+    width: 100%;
+  }
+
+  label {
+    font-size: 14px;
+    top: 50%;
+    transform: translate(10%, -50%);
+  }
+  .non-outline-input-label{
+    transform: translate(1%,10%);
+  }
+
+  .search-wrap-outline-input{
+    input{
+    padding: 10px 60px 10px 18px;
+    }
+  }
+
+  .search-wrap-input{
+    input{
+      padding: 6px 0px 7px 0px;
+    }
+  }
+
+  //Overriding css for outline input start
+  .MuiOutlinedInput-root {
+   
+    .MuiOutlinedInput{
+      padding: 10px 60px 10px 18px;
+    }
+
+    fieldset {
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+
+    &:hover {
+      fieldset {
+        border: 1px solid gray;
+      }
+    }
+
+    &.Mui-focused {
+      fieldset {
+        border: 1px solid gray;
+      }
+    }
+  }
+
+  //Overriding css for outline input over
+
+
+  .MuiInput-root .MuiInput-input {
+    padding: 6px 0px 7px 0px;
+  }
+}
+
+.search-wrap label.shrinked{
+  background-color: white;
+  padding: 0px 5px;
+  top: 0px;
+  font-size: 12px;
+}
+.search-wrap label.shrinked.non-outline-input-label{
+  background-color: white;
+  padding: 0px 5px;
+  top: 0px;
+  left: -2px;
+  font-size: 11px;
+}
